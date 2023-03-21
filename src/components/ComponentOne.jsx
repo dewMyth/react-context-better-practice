@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import ComponentTwo from "./ComponentTwo";
-import { TestContext } from "../context/TestContext";
+import { TestContext } from "../context/context/TestContext";
 
 const ComponentOne = () => {
   const { user } = useContext(TestContext);

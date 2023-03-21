@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { TestContext } from "../context/TestContext";
+import { TestContext } from "../context/context/TestContext";
 
 const ComponentThree = () => {
   const { dispatch } = useContext(TestContext);

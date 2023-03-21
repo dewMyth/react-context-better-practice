@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-import TestReducer from "./TestReducer";
+import TestReducer from "../reducers/TestReducer";
 
 const INITIAL_STATE = {
   user: null,
