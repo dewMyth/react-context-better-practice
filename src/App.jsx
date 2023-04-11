@@ -7,9 +7,6 @@ import { TableContextProvider } from "./context/context/TableContext";
 function App() {
   return (
     <>
-      {/* <TestContextProvider>
-        <ComponentOne />
-      </TestContextProvider> */}
       <TableContextProvider>
         <Preview />
         <UserTable />
